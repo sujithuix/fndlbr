@@ -6,6 +6,9 @@ import './App.css';
 
 import Home from './home/home';
 import ProvideServicForm from './provide-service/provide-service-form';
+import NeedServiceListing from './need-service/need-service-listing';
+import NeedServiceItem from './need-service/need-service-item';
+
 
 class App extends Component {
   render() {
@@ -16,12 +19,15 @@ class App extends Component {
         <header className="App-header">
           <h1>App Header</h1>
           <Link to="/">Home</Link>
+         
         </header>
         <section className="page-wrap container">
           
             <div>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/provide-service-form" component={ProvideServicForm} />
+                <Route exact path="/need-service-listing" component={NeedServiceListing} />
+                <Route exact path="/need-service-listing/:value/:id" component={NeedServiceItem} />
             </div>
           
         </section>
