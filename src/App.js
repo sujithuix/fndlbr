@@ -7,7 +7,7 @@ import './App.css';
 import Home from './home/home';
 import ProvideServicForm from './provide-service/provide-service-form';
 import NeedServiceListing from './need-service/need-service-listing';
-import NeedServiceItem from './need-service/need-service-item';
+import NeedServicePeopleList from './need-service/need-service-people-list';
 
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/provide-service-form" component={ProvideServicForm} />
                 <Route exact path="/need-service-listing" component={NeedServiceListing} />
-                <Route exact path="/need-service-listing/:value/:id" component={NeedServiceItem} />
+                <Route exact path="/need-service-listing/:value" component={NeedServicePeopleList} />
             </div>
           
         </section>

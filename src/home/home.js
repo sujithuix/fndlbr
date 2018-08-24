@@ -7,17 +7,17 @@ class Home extends React.Component {
   }
   render() {
     return (
-      <div className="row">
+      <div className="row main-route">
         <div className="col-md-6">
           <Link to="/provide-service-form">
-            <div className="nav-service nav-provide-service">
+            <div className="card nav-service nav-provide-service">
               Looking for service
                 </div>
           </Link>
         </div>
         <div className="col-md-6">
           <Link to="/need-service-listing">
-            <div className="nav-service nav-need-service">
+            <div className="card nav-service nav-need-service">
               Need Service
               </div>
           </Link>

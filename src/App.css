@@ -10,17 +10,20 @@
   font-size: 1.5em;
 }
 
-.nav-service{
+.card{
   cursor: pointer;
   width: 200px;
   height: 50px;
   padding: 10px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 100px;
   background: #eee;
   border: 1px solid #ddd;
 }
+.main-route{
+  margin-top: 100px;
+}
+
 
 /* provide-service-form */
 
@@ -28,3 +31,47 @@
   width: 400px;
   margin: 30px auto;
 }
+
+/* need service */
+.need-service-listing{
+  margin-top: 100px;
+}
+.need-service-listing a {
+  width: 300px;
+  display: block;
+  float: left;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+.need-service-people-list{
+  margin-top: 100px;
+}
+.area-filter .form-group{display: inline-block;margin-right: 10px;}
+
+.people-list-grid .btn{
+  display: inline;
+  margin-right: 5px;
+}
+.people-list-grid th,.people-list-grid td{
+  vertical-align: middle;
+}
+.people-list-grid .btn{
+  padding: 4px;
+  margin-left: 3px;
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .only-desktop{
+    display: none !important;
+  }
+}
+@media only screen and (min-width : 480px) {
+  .only-mobile{
+    display: none !important;
+  }
+}
+
+

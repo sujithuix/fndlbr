@@ -8,18 +8,34 @@ class NeedServiceListing extends React.Component {
     render() {
         return (
             <div className="need-service-listing">
-           <Link to="/need-service-listing/service-item">
-                <div className="nav-service nav-provide-service">
+            <Link to="/need-service-listing/need-service-people-list">
+                <div className="card nav-service nav-provide-service">
                   Service One
                 </div>
               </Link>
-              <Link to="/need-service-listing/service-item">
-                <div className="nav-service nav-provide-service">
+              <Link to="/need-service-listing/service-people-list">
+                <div className="card nav-service nav-provide-service">
                 Service Two
                 </div>
               </Link>
-              <Link to="/need-service-listing/service-item">
-                <div className="nav-service nav-provide-service">
+              <Link to="/need-service-listing/service-people-list">
+                <div className="card nav-service nav-provide-service">
+                Service Three
+                </div>
+              </Link>
+              <Link to="/need-service-listing/service-people-list">
+                <div className="card nav-service nav-provide-service">
+                Service Three
+                </div>
+              </Link>
+              <Link to="/need-service-listing/service-people-list">
+                <div className="card nav-service nav-provide-service">
+                Service Three
+                </div>
+              </Link>
+
+              <Link to="/need-service-listing/service-people-list">
+                <div className="card nav-service nav-provide-service">
                 Service Three
                 </div>
               </Link>
